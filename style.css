@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Start Here */
+.counter{
+    width:40%;
+   background-image: linear-gradient(to right top, #190537, #2b0f60, #40198d, #5423bd, #692ef0);
+  
+    text-align: center;
+    padding: 1rem;
+    color: var(--white);
+    border-radius: 5px;
+    
+}
+
+.counter > * {
+    margin-bottom: 2rem;
+
+}
+.hex {
+    font-size: 2rem;
+    width: 10rem;
+   padding: 3px;
+   border: none;
+    border-radius: 5px;
+}
+.but {
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    border: none;
+   
+    padding: 4px;
+    border-radius: 5px;
+}
+.generate {
+    padding: 1rem 3rem;
+    font-size: 2rem;
+}
+.generate i {
+   margin-right: .7rem;
+}
+
+
+
+
+/* Media Screen */
+ @media screen and (max-width: 500px) {
+    .buttons > *{
+        margin-bottom: 1rem;
+    }
+    .counter{
+        width: 90%;
+    }
+
+   
+}
+    
